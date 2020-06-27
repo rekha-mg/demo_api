@@ -1,6 +1,6 @@
 <?php
 
-/*return [
+return [
 
     /*
     |--------------------------------------------------------------------------
@@ -13,7 +13,7 @@
     |
     */
 
-  /*  'defaults' => [
+    'defaults' => [
         'guard' => 'web',
         'passwords' => 'users',
     ],
@@ -35,7 +35,7 @@
     |
     */
 
-/*    'guards' => [
+    'guards' => [
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
@@ -65,7 +65,7 @@
     |
     */
 
- /*   'providers' => [
+    'providers' => [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\User::class,
@@ -92,7 +92,7 @@
     |
     */
 
- /*   'passwords' => [
+    'passwords' => [
         'users' => [
             'provider' => 'users',
             'table' => 'password_resets',
@@ -100,19 +100,4 @@
         ],
     ],
 
-];*/
-
-return [
-    //.....
-    'guards' => [
-        'web' => [
-            'driver' => 'session',
-            'provider' => 'users',
-        ],
-        'api' => [
-            'driver' => 'passport',
-            'provider' => 'users',
-        ],
-    ],
-    //.....
 ];

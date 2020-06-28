@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /node_modules
 /public/hot
 /public/storage
@@ -10,3 +11,7 @@
 #Homestead.yaml
 npm-debug.log
 yarn-error.log
+=======
+/vendor
+.DS_Store
+>>>>>>> fdd6777138bf895b3975a93e15e84bdd893d9c27

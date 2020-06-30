@@ -9,7 +9,6 @@ use App\Http\Controllers\API\BaseController as BaseController;
 use App\Product;
 use Validator;
 
-
 class ProductController extends BaseController
 {
     /**
